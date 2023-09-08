@@ -1845,9 +1845,14 @@ hr {
   background-image: url("../used-images/parallax-images/black.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+
   margin-top: -50px;
   padding-bottom: 50px;
+}
+@media (min-width: 768px) {
+  #journey {
+    background-attachment: fixed;
+  }
 }
 
 .timeline {
